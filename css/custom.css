@@ -1,0 +1,78 @@
+@charset "UTF-8";
+:root {
+  --base-Latin-font: "Latin Modern Roman", "Latin Modern Roman 10", Times;
+  --base-Chinese-font: "思源宋体", "宋体-简", "华文宋体", "Noto Serif CJK SC";
+  --base-font-size: 16px;
+  --quote-font: "Latin Modern Roman", "Latin Modern Roman 10", Times, "Times New Roman", "华文仿宋";
+  --quote-font-size: 1.2em;
+  --code-font: "Latin Modern Mono", "Latin Modern Mono 10", "Consolas", "Courier New";
+  --ui-font: "思源宋体", "微软雅黑";
+  --base-line-height: 1.618;
+  --set-margin: 1.8cm 2cm 1.2cm 2cm !important;
+}
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: var(--base-Latin-font), var(--base-Chinese-font), serif;
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+}
+p {
+  text-align: left;
+  line-height: var(--base-line-height);
+}
+a {
+  color: #2e67d3;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.3em;
+}
+h5,
+h6 {
+  font-size: 1.1em;
+}
+pre,
+code {
+  font-family: var(--code-font), var(--ui-font), monospace;
+}
+blockquote {
+  font-family: var(--quote-font), var(--base-Latin-font), var(--base-Chinese-font), -apple-system, serif;
+  font-size: var(--quote-font-size);
+  padding-left: 2em;
+  padding-right: 2em;
+}
+table {
+  border-collapse: collapse;
+  width: auto;
+  margin: 0 auto;
+}
+table th,
+table td {
+  padding: 6px;
+  border: 1px solid;
+}
+code {
+  background-color: #f8f8f8;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+.md-fences {
+  font-size: 1em;
+}
