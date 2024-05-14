@@ -224,7 +224,7 @@ p {
   margin: 0 0 20px;
 }
 a {
-  border-bottom: 1px solid #5dade2;
+  border-bottom: 1px solid #ccc;
   color: var(--link-color);
   cursor: pointer;
   outline: 0;
@@ -333,8 +333,7 @@ td {
   left: 0;
   position: relative;
   top: 0;
-  transition: 0.4s;
-  transition-property: left, opacity, top, transform, width;
+  transition: all 0.4s;
   width: 100%;
 }
 .toggle .toggle-line:first-child {
@@ -548,7 +547,7 @@ code {
   overflow-wrap: break-word;
 }
 kbd {
-  border: 2px solid #5dade2;
+  border: 2px solid #ccc;
   border-radius: 0.2em;
   box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1);
   font-family: inherit;
@@ -628,7 +627,7 @@ pre code {
   width: 100%;
 }
 .blockquote-center::before {
-  border-top: 1px solid #5dade2;
+  border-top: 1px solid #ccc;
   text-align: left;
   top: -20px;
   content: '\f10d';
@@ -636,7 +635,7 @@ pre code {
   font-weight: 900;
 }
 .blockquote-center::after {
-  border-bottom: 1px solid #5dade2;
+  border-bottom: 1px solid #ccc;
   bottom: -20px;
   text-align: right;
   content: '\f10e';
@@ -993,8 +992,8 @@ pre code {
   }
 }
 .pagination .page-number.current {
-  background: #5dade2;
-  border-color: #5dade2;
+  background: #ccc;
+  border-color: #ccc;
   color: var(--content-bg-color);
 }
 .pagination {
@@ -1230,8 +1229,7 @@ pre code {
   overflow-y: auto;
   position: fixed;
   top: 0;
-  transition: 0.2s ease-out;
-  transition-property: left, right;
+  transition: all 0.2s ease-out;
   width: 320px;
   z-index: 20;
 }
@@ -1254,7 +1252,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #e76c3c;
+  background: #5716ff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -1381,7 +1379,7 @@ pre code {
 }
 .sidebar-nav li {
   border-bottom: 1px solid transparent;
-  color: #f5f5f5;
+  color: #666;
   cursor: pointer;
   display: inline-block;
   transition: 0.2s ease-in-out;
@@ -1671,8 +1669,7 @@ pre code {
   color: #fff;
   display: flex;
   height: 26px;
-  transition: 0.2s ease-in-out;
-  transition-property: bottom;
+  transition: bottom 0.2s ease-in-out;
   background: #222;
   cursor: pointer;
   opacity: 0.8;
@@ -1815,7 +1812,7 @@ pre code {
   margin-left: 5px;
 }
 .posts-collapse .post-content .post-header {
-  border-bottom: 1px dashed #5dade2;
+  border-bottom: 1px dashed #ccc;
   margin: 30px 2px 0;
   padding-left: 15px;
   position: relative;
@@ -2121,7 +2118,7 @@ pre code {
   justify-content: center;
 }
 .post-eof {
-  background: #5dade2;
+  background: #ccc;
   height: 1px;
   margin: 80px auto 60px;
   width: 8%;
@@ -2166,6 +2163,7 @@ pre code {
   border: 2px solid #87daff;
   border-radius: 2px;
   outline: 0;
+  transition: all 0.2s ease-in-out;
   vertical-align: text-top;
 }
 .reward-container button:hover {
@@ -2384,12 +2382,6 @@ ul.breadcrumb li:last-child {
 .tag-cloud-10 {
   border-bottom-color: #111;
   color: #111;
-}
-mark.search-keyword {
-  background: transparent;
-  border-bottom: 1px dashed #ff2a2a;
-  color: #ff2a2a;
-  font-weight: bold;
 }
 mjx-container[jax='CHTML'][display='true'],
 .has-jax {
