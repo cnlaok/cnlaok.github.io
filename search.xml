@@ -1,154 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/05/12/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>乱数假文</title>
-    <url>/2024/05/08/sample-chinese/</url>
-    <content><![CDATA[<h1 id="乱数假文">乱数假文</h1>
-<p>在<a href="https://www.wikiwand.com/en/Publishing">出版</a>和<a href="https://www.wikiwand.com/en/Graphic_design">平面设计</a>中，<strong>lorem
-ipsum</strong>（源自拉丁语 <em>dolorem
-ipsum</em>，翻译为 “痛苦本身”）是一个<a href="https://www.wikiwand.com/en/Filler_text">填充文本</a>，通常用于演示文档或视觉呈现的图形元素 <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<h2 id="样例文本">样例文本</h2>
-<p>常见的 <em>lorem ipsum</em> 起头如下：</p>
-<blockquote>
-<p><em>Lorem ipsum dolor sit amet</em>, <strong>consectetur adipiscing
-elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua</strong>. Ut enim ad minim veniam, quis nostrud exercitation
-ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><em>我必须向你们解释</em>，<strong>谴责快乐和赞美痛苦的这一错误观念是如何诞生的</strong>，我将给你们一个完整的系统说明，并阐述真理的伟大探索者，人类幸福的主要建造者的实际教导。</p>
-</blockquote>
-<hr>
-<p>内联样式支持<strong>粗体</strong>、<em>斜体</em>、<code>code</code>、<u>下划线</u>、<del>删除线</del>、:smile:、<span class="math inline">\(\LaTeX\)</span>、X<sup>2</sup>、H<sub>2</sub>O、== 高亮 ==、<a href="typora.io">链接</a>和图像：</p>
-<figure>
-<img src="https://www.typoraio.cn/img/screen/Group-screen.png" alt="img">
-<figcaption aria-hidden="true">img</figcaption>
-</figure>
-<p>层级标题：</p>
-<h3 id="标题3">标题 3</h3>
-<h4 id="标题4">标题 4</h4>
-<h5 id="标题5">标题 5</h5>
-<h6 id="标题6">标题 6</h6>
-<p>表格：</p>
-<center>
-<strong>表 2 全球 / 中国桌面操作系统市场份额占比（%）</strong>
-</center>
-<table>
-<thead>
-<tr class="header">
-<th>OS</th>
-<th>Windows</th>
-<th>macOS</th>
-<th>Unknown</th>
-<th>Linux</th>
-<th>Chrome OS</th>
-<th> 其他</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>全球</td>
-<td> 76.56</td>
-<td>17.1</td>
-<td>2.68</td>
-<td>1.93</td>
-<td>1.72</td>
-<td>0.01</td>
-</tr>
-<tr class="even">
-<td> 中国</td>
-<td> 87.55</td>
-<td>5.44</td>
-<td>6.24</td>
-<td>0.75</td>
-<td>0.01</td>
-<td>0.01</td>
-</tr>
-</tbody>
-</table>
-<p>项目列表：</p>
-<ol type="1">
-<li>有序列表项</li>
-<li>有序列表项 2 + 无序列表项 1 + 无序列表项 2.
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">表示已完成。</label></li>
-<li><label><input type="checkbox">表示未完成。</label></li>
-</ul></li>
-</ol>
-<ul>
-<li>项目 1
-<ul>
-<li>项目 2
-<ul>
-<li>项目 3</li>
-</ul></li>
-</ul></li>
-</ul>
-<ol type="1">
-<li> 项目 1</li>
-<li> 项目 2
-<ol type="1">
-<li>项目 2.1</li>
-<li> 项目 2.2
-<ol type="1">
-<li>项目 2.2.1</li>
-<li> 项目 2.2.2</li>
-</ol></li>
-</ol></li>
-</ol>
-<p>代码块：</p>
-<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>The *= Operator<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  </span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"demo"</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> x = <span class="number">10</span>;</span></span><br><span class="line"><span class="language-javascript">x *= <span class="number">5</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">"demo"</span>).<span class="property">innerHTML</span> = x;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-<p>mermaid 图形：</p>
-<pre class="mermaid">graph LR
-A(开始) --&gt;
-input[/输入a,b/] --&gt; if{a%b=0 ?}
-if ---&gt;|yes| f1[GCD = b] --&gt; B(结束)
-if ---&gt;|no| f2["a, b = b, a % b "]--&gt;if</pre>
-<p>公式:</p>
-<p><span class="math display">\[
-\iint\limits_{x^2 + y^2 \leq R^2} f(x,y)\,\mathrm{d}x\,\mathrm{d}y =
-\int_{\theta=0}^{2\pi} \mathrm{d}\theta\int_{r=0}^R
-f(r\cos\theta,r\sin\theta) r\,\mathrm{d}r\,\iint\limits_{x^2 + y^2 \leq
-R^2} f(x,y)\,\mathrm{d}x\,\mathrm{d}y =
-\int_{\theta=0}^{2\pi} \mathrm{d}\theta\int_{r=0}^R
-f(r\cos\theta,r\sin\theta) r\,\mathrm{d}r\, \tag{1}
-\]</span></p>
-<p>目录：</p>
-<p>[TOC]</p>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn1"><p>从 https://en.wikipedia.org/wiki/Lorem_ipsum 整理得到<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
-]]></content>
-  </entry>
-  <entry>
     <title>计算机工作枢纽 —— 操作系统</title>
     <url>/2024/05/12/essay-template/</url>
     <content><![CDATA[<center>
@@ -467,6 +319,154 @@ https://zh.wikipedia.org/w/index.php?title=Microsoft_Windows&amp;oldid=63546256.
     <url>/2024/05/14/next/</url>
     <content><![CDATA[<div class="note default"><p>Content (md partial supported)</p>
 </div>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/05/12/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>乱数假文</title>
+    <url>/2024/05/08/sample-chinese/</url>
+    <content><![CDATA[<h1 id="乱数假文">乱数假文</h1>
+<p>在<a href="https://www.wikiwand.com/en/Publishing">出版</a>和<a href="https://www.wikiwand.com/en/Graphic_design">平面设计</a>中，<strong>lorem
+ipsum</strong>（源自拉丁语 <em>dolorem
+ipsum</em>，翻译为 “痛苦本身”）是一个<a href="https://www.wikiwand.com/en/Filler_text">填充文本</a>，通常用于演示文档或视觉呈现的图形元素 <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<h2 id="样例文本">样例文本</h2>
+<p>常见的 <em>lorem ipsum</em> 起头如下：</p>
+<blockquote>
+<p><em>Lorem ipsum dolor sit amet</em>, <strong>consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua</strong>. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><em>我必须向你们解释</em>，<strong>谴责快乐和赞美痛苦的这一错误观念是如何诞生的</strong>，我将给你们一个完整的系统说明，并阐述真理的伟大探索者，人类幸福的主要建造者的实际教导。</p>
+</blockquote>
+<hr>
+<p>内联样式支持<strong>粗体</strong>、<em>斜体</em>、<code>code</code>、<u>下划线</u>、<del>删除线</del>、:smile:、<span class="math inline">\(\LaTeX\)</span>、X<sup>2</sup>、H<sub>2</sub>O、== 高亮 ==、<a href="typora.io">链接</a>和图像：</p>
+<figure>
+<img src="https://www.typoraio.cn/img/screen/Group-screen.png" alt="img">
+<figcaption aria-hidden="true">img</figcaption>
+</figure>
+<p>层级标题：</p>
+<h3 id="标题3">标题 3</h3>
+<h4 id="标题4">标题 4</h4>
+<h5 id="标题5">标题 5</h5>
+<h6 id="标题6">标题 6</h6>
+<p>表格：</p>
+<center>
+<strong>表 2 全球 / 中国桌面操作系统市场份额占比（%）</strong>
+</center>
+<table>
+<thead>
+<tr class="header">
+<th>OS</th>
+<th>Windows</th>
+<th>macOS</th>
+<th>Unknown</th>
+<th>Linux</th>
+<th>Chrome OS</th>
+<th> 其他</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>全球</td>
+<td> 76.56</td>
+<td>17.1</td>
+<td>2.68</td>
+<td>1.93</td>
+<td>1.72</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td> 中国</td>
+<td> 87.55</td>
+<td>5.44</td>
+<td>6.24</td>
+<td>0.75</td>
+<td>0.01</td>
+<td>0.01</td>
+</tr>
+</tbody>
+</table>
+<p>项目列表：</p>
+<ol type="1">
+<li>有序列表项</li>
+<li>有序列表项 2 + 无序列表项 1 + 无序列表项 2.
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">表示已完成。</label></li>
+<li><label><input type="checkbox">表示未完成。</label></li>
+</ul></li>
+</ol>
+<ul>
+<li>项目 1
+<ul>
+<li>项目 2
+<ul>
+<li>项目 3</li>
+</ul></li>
+</ul></li>
+</ul>
+<ol type="1">
+<li> 项目 1</li>
+<li> 项目 2
+<ol type="1">
+<li>项目 2.1</li>
+<li> 项目 2.2
+<ol type="1">
+<li>项目 2.2.1</li>
+<li> 项目 2.2.2</li>
+</ol></li>
+</ol></li>
+</ol>
+<p>代码块：</p>
+<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>The *= Operator<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  </span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"demo"</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> x = <span class="number">10</span>;</span></span><br><span class="line"><span class="language-javascript">x *= <span class="number">5</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">"demo"</span>).<span class="property">innerHTML</span> = x;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>mermaid 图形：</p>
+<pre class="mermaid">graph LR
+A(开始) --&gt;
+input[/输入a,b/] --&gt; if{a%b=0 ?}
+if ---&gt;|yes| f1[GCD = b] --&gt; B(结束)
+if ---&gt;|no| f2["a, b = b, a % b "]--&gt;if</pre>
+<p>公式:</p>
+<p><span class="math display">\[
+\iint\limits_{x^2 + y^2 \leq R^2} f(x,y)\,\mathrm{d}x\,\mathrm{d}y =
+\int_{\theta=0}^{2\pi} \mathrm{d}\theta\int_{r=0}^R
+f(r\cos\theta,r\sin\theta) r\,\mathrm{d}r\,\iint\limits_{x^2 + y^2 \leq
+R^2} f(x,y)\,\mathrm{d}x\,\mathrm{d}y =
+\int_{\theta=0}^{2\pi} \mathrm{d}\theta\int_{r=0}^R
+f(r\cos\theta,r\sin\theta) r\,\mathrm{d}r\, \tag{1}
+\]</span></p>
+<p>目录：</p>
+<p>[TOC]</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>从 https://en.wikipedia.org/wiki/Lorem_ipsum 整理得到<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 ]]></content>
   </entry>
 </search>
