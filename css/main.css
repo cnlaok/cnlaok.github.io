@@ -1264,7 +1264,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ffffc1;
+  background: #ffd16a;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2723,8 +2723,8 @@ header.header {
 }
 @media (max-width: 767px) {
   .main-inner {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
 }
 .post-block:first-of-type {
@@ -2758,9 +2758,6 @@ body {
 code,
 pre {
   font-family: 'Roboto Mono', consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
-}
-.header {
-  background: #fff;
 }
 .column {
   background: #fff;
@@ -2877,20 +2874,4 @@ pre {
 .back-to-top {
   background: rgba(34,34,34,0);
   color: #222;
-}
-.post-block {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  border-radius: 20px;
-  padding: 30px 60px 30px 60px;
-  background: rgba(255,255,255,0.5) none repeat scroll !important;
-}
-.site-subtitle {
-  font-size: 1em;
-}
-.post-eof {
-  margin: 20px auto 20px;
-}
-.btn {
-  background: #fff;
 }
