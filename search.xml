@@ -1,241 +1,157 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300italic,400,400italic,700,700italic%7CPT+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
-
-<script class="next-config" data-name="main" type="application/json">{"hostname":"me1.top","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"right","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-
-    <meta name="description" content="你的名字，12345678909 （学号）    浙江大学 ***** (单位)    摘　要：   在信息化时代背景下，计算机操作系统在各行业领域中得到广泛应用。本文试图通过对计算机系统概念、功能和分类、历史的介绍，大致地给出对计算机操作系统的认识，并通过对当前主流桌面操作系统 Windows 和 macOS 的简要介绍，使读者能够对现代图形界面操作系统有一个较为全面的了解，从而喜欢上">
-<meta property="og:type" content="article">
-<meta property="og:title" content="计算机工作枢纽 —— 操作系统">
-<meta property="og:url" content="https://me1.top/2024/05/12/essay-template/index.html">
-<meta property="og:site_name" content=".Me1 Paper.">
-<meta property="og:description" content="你的名字，12345678909 （学号）    浙江大学 ***** (单位)    摘　要：   在信息化时代背景下，计算机操作系统在各行业领域中得到广泛应用。本文试图通过对计算机系统概念、功能和分类、历史的介绍，大致地给出对计算机操作系统的认识，并通过对当前主流桌面操作系统 Windows 和 macOS 的简要介绍，使读者能够对现代图形界面操作系统有一个较为全面的了解，从而喜欢上">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/osqqfe.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/oszgfe.png">
-<meta property="article:published_time" content="2024-05-11T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-05-14T08:26:08.667Z">
-<meta property="article:author" content="LaoK">
-<meta property="article:tag" content="主题">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/osqqfe.png">
-
-
-<link rel="canonical" href="https://me1.top/2024/05/12/essay-template/">
-
-
-
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://me1.top/2024/05/12/essay-template/","path":"2024/05/12/essay-template/","title":"计算机工作枢纽 —— 操作系统"}</script>
-
-<script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>计算机工作枢纽 —— 操作系统 | .Me1 Paper.</title>
-  
-
-
-
-
-
-
-
-
-  <noscript>
-    <link rel="stylesheet" href="/css/noscript.css">
-  </noscript>
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
-  <div class="headband"></div>
-
-  <main class="main">
-    <div class="column">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏" role="button">
-        <span class="toggle-line"></span>
-        <span class="toggle-line"></span>
-        <span class="toggle-line"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <i class="logo-line"></i>
-      <p class="site-title">.Me1 Paper.</p>
-      <i class="logo-line"></i>
-    </a>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger" aria-label="搜索" role="button">
-        <i class="fa fa-search fa-fw fa-lg"></i>
-    </div>
-  </div>
-</div>
-
-
-
-<nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
-        </a>
-      </li>
-  </ul>
-</nav>
-
-
-
-  <div class="search-pop-overlay">
-    <div class="popup search-popup"><div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="搜索..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close" role="button">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div class="search-result-container no-result">
-  <div class="search-result-icon">
-    <i class="fa fa-spinner fa-pulse fa-5x"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
-
-</header>
-        
-  
-  <aside class="sidebar">
-
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <div class="sidebar-panel-container">
-        <!--noindex-->
-        <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#computer-work-hub-operating-system"><span class="nav-number">1.</span> <span class="nav-text">Computer Work Hub —
-Operating System</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="nav-number">1.1.</span> <span class="nav-text">什么是计算机操作系统</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%8A%9F%E8%83%BD%E7%BB%93%E6%9E%84%E5%92%8C%E5%88%86%E7%B1%BB"><span class="nav-number">1.2.</span> <span class="nav-text">操作系统的功能、结构和分类</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="nav-number">1.2.1.</span> <span class="nav-text">操作系统的功能</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86%E5%A4%84%E7%90%86%E5%99%A8%E7%AE%A1%E7%90%86"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">进程管理（处理器管理）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%95%B0%E5%AD%A6%E6%96%B9%E6%B3%95%E5%81%87%E5%AE%9A"><span class="nav-number">1.2.1.1.1.</span> <span class="nav-text">数学方法（假定）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%81%87%E5%AE%9A"><span class="nav-number">1.2.1.1.2.</span> <span class="nav-text">算法的代码实现（假定）</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">存储管理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F"><span class="nav-number">1.2.1.3.</span> <span class="nav-text">设备管理（驱动程序）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86"><span class="nav-number">1.2.1.4.</span> <span class="nav-text">文件管理</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%93%E6%9E%84"><span class="nav-number">1.2.2.</span> <span class="nav-text">操作系统的结构</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%8F%91%E5%B1%95"><span class="nav-number">1.3.</span> <span class="nav-text">操作系统的发展</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%8E%B0%E7%8A%B6"><span class="nav-number">1.3.1.</span> <span class="nav-text">操作系统的现状</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA%E7%94%B5%E8%84%91"><span class="nav-number">1.3.1.1.</span> <span class="nav-text">个人电脑</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A7%BB%E5%8A%A8%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="nav-number">1.3.1.2.</span> <span class="nav-text">移动操作系统</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BD%93%E5%89%8D%E4%B8%BB%E6%B5%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B"><span class="nav-number">1.4.</span> <span class="nav-text">当前主流操作系统简介</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#microsoft-windows"><span class="nav-number">1.4.1.</span> <span class="nav-text">Microsoft Windows</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#macos"><span class="nav-number">1.4.2.</span> <span class="nav-text">macOS</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">1.5.</span> <span class="nav-text">结语</span></a></li></ol></li></ol></div>
-        </div>
-        <!--/noindex-->
-
-        <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="LaoK"
-      src="/uploads/avatar.png">
-  <p class="site-author-name" itemprop="name">LaoK</p>
-  <div class="site-description" itemprop="description">一个结构工程师.</div>
-</div>
-<div class="site-state-wrap animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">4</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author animated">
-      <span class="links-of-author-item">
-        <a href="https://github.com/cnlaok" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;cnlaok" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="mailto:cnlaok@gmail.com" title="E-Mail → mailto:cnlaok@gmail.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
-      </span>
-  </div>
-  <div class="cc-license animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/big/by_nc_sa.svg" alt="Creative Commons"></a>
-  </div>
-
-        </div>
-      </div>
-    </div>
-
-    
-  </aside>
-
-
-    </div>
-
-    <div class="main-inner post posts-expand">
-
-
-  
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://me1.top/2024/05/12/essay-template/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.png">
-      <meta itemprop="name" content="LaoK">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content=".Me1 Paper.">
-      <meta itemprop="description" content="一个结构工程师.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="计算机工作枢纽 —— 操作系统 | .Me1 Paper.">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          计算机工作枢纽 —— 操作系统
-        </h1>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody"><center>
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/05/12/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>乱数假文</title>
+    <url>/2024/05/08/sample-chinese/</url>
+    <content><![CDATA[<h1 id="乱数假文">乱数假文</h1>
+<p>在<a href="https://www.wikiwand.com/en/Publishing">出版</a>和<a href="https://www.wikiwand.com/en/Graphic_design">平面设计</a>中，<strong>lorem
+ipsum</strong>（源自拉丁语 <em>dolorem
+ipsum</em>，翻译为 “痛苦本身”）是一个<a href="https://www.wikiwand.com/en/Filler_text">填充文本</a>，通常用于演示文档或视觉呈现的图形元素 <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<h2 id="样例文本">样例文本</h2>
+<p>常见的 <em>lorem ipsum</em> 起头如下：</p>
+<blockquote>
+<p><em>Lorem ipsum dolor sit amet</em>, <strong>consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua</strong>. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><em>我必须向你们解释</em>，<strong>谴责快乐和赞美痛苦的这一错误观念是如何诞生的</strong>，我将给你们一个完整的系统说明，并阐述真理的伟大探索者，人类幸福的主要建造者的实际教导。</p>
+</blockquote>
+<hr>
+<p>内联样式支持<strong>粗体</strong>、<em>斜体</em>、<code>code</code>、<u>下划线</u>、<del>删除线</del>、:smile:、<span class="math inline">\(\LaTeX\)</span>、X<sup>2</sup>、H<sub>2</sub>O、== 高亮 ==、<a href="typora.io">链接</a>和图像：</p>
+<figure>
+<img src="https://www.typoraio.cn/img/screen/Group-screen.png" alt="img">
+<figcaption aria-hidden="true">img</figcaption>
+</figure>
+<p>层级标题：</p>
+<h3 id="标题3">标题 3</h3>
+<h4 id="标题4">标题 4</h4>
+<h5 id="标题5">标题 5</h5>
+<h6 id="标题6">标题 6</h6>
+<p>表格：</p>
+<center>
+<strong>表 2 全球 / 中国桌面操作系统市场份额占比（%）</strong>
+</center>
+<table>
+<thead>
+<tr class="header">
+<th>OS</th>
+<th>Windows</th>
+<th>macOS</th>
+<th>Unknown</th>
+<th>Linux</th>
+<th>Chrome OS</th>
+<th> 其他</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>全球</td>
+<td> 76.56</td>
+<td>17.1</td>
+<td>2.68</td>
+<td>1.93</td>
+<td>1.72</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td> 中国</td>
+<td> 87.55</td>
+<td>5.44</td>
+<td>6.24</td>
+<td>0.75</td>
+<td>0.01</td>
+<td>0.01</td>
+</tr>
+</tbody>
+</table>
+<p>项目列表：</p>
+<ol type="1">
+<li>有序列表项</li>
+<li>有序列表项 2 + 无序列表项 1 + 无序列表项 2.
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">表示已完成。</label></li>
+<li><label><input type="checkbox">表示未完成。</label></li>
+</ul></li>
+</ol>
+<ul>
+<li>项目 1
+<ul>
+<li>项目 2
+<ul>
+<li>项目 3</li>
+</ul></li>
+</ul></li>
+</ul>
+<ol type="1">
+<li> 项目 1</li>
+<li> 项目 2
+<ol type="1">
+<li>项目 2.1</li>
+<li> 项目 2.2
+<ol type="1">
+<li>项目 2.2.1</li>
+<li> 项目 2.2.2</li>
+</ol></li>
+</ol></li>
+</ol>
+<p>代码块：</p>
+<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>The *= Operator<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  </span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"demo"</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> x = <span class="number">10</span>;</span></span><br><span class="line"><span class="language-javascript">x *= <span class="number">5</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">"demo"</span>).<span class="property">innerHTML</span> = x;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>mermaid 图形：</p>
+<pre class="mermaid">graph LR
+A(开始) --&gt;
+input[/输入a,b/] --&gt; if{a%b=0 ?}
+if ---&gt;|yes| f1[GCD = b] --&gt; B(结束)
+if ---&gt;|no| f2["a, b = b, a % b "]--&gt;if</pre>
+<p>公式:</p>
+<p><span class="math display">\[
+\iint\limits_{x^2 + y^2 \leq R^2} f(x,y)\,\mathrm{d}x\,\mathrm{d}y =
+\int_{\theta=0}^{2\pi} \mathrm{d}\theta\int_{r=0}^R
+f(r\cos\theta,r\sin\theta) r\,\mathrm{d}r\,\iint\limits_{x^2 + y^2 \leq
+R^2} f(x,y)\,\mathrm{d}x\,\mathrm{d}y =
+\int_{\theta=0}^{2\pi} \mathrm{d}\theta\int_{r=0}^R
+f(r\cos\theta,r\sin\theta) r\,\mathrm{d}r\, \tag{1}
+\]</span></p>
+<p>目录：</p>
+<p>[TOC]</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>从 https://en.wikipedia.org/wiki/Lorem_ipsum 整理得到<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+]]></content>
+  </entry>
+  <entry>
+    <title>计算机工作枢纽 —— 操作系统</title>
+    <url>/2024/05/12/essay-template/</url>
+    <content><![CDATA[<center>
 <div style="height:2mm;">
 
 </div>
@@ -387,12 +303,12 @@ Mobile 取代。Windows 10 Mobile 是 Windows
 10 操作系统的分支版本，专为屏幕尺寸低于 8 寸的智能手机和平板电脑运行。它采用 ARM 架构和 IA-32 处理器架构，为移动设备提供了 "强大的功能"。其中包括同步处理功能、通用应用、从 Android 和 iOS 的平台移植的应用、将设备连接至外部屏幕、可使用类似 PC 的鼠标和键盘输入等。尽管设想与愿景十分美好，但最终呈现效果始终不尽人意。2020 年 1 月 14 日，因为 Windows
 10
 Mobile 使用人数太少，欠缺 App 开发人员，该系统正式停止更新，最后一个版本号停留在 1709（10.0.15254.603）。许多人对 Windows
-10 Mobile 的结局感到痛心疾首，读者可以通过<a target="_blank" rel="noopener" href="https://www.microsoft.com/en-us/windows/windows-10-mobile-specifications">这里</a>尝试为您的手机安装该系统。
+10 Mobile 的结局感到痛心疾首，读者可以通过<a href="https://www.microsoft.com/en-us/windows/windows-10-mobile-specifications">这里</a>尝试为您的手机安装该系统。
 　　Apple 在 2007 年推出了 iPhone 及其操作系统，后者称为 iPhone
 OS（也就是如今的 iOS），它与 Mac OS
 X 一样，都基于类似 Unix 的 Darwin。除了这些基础之外，它还引入了功能强大且创新的图形用户界面，该界面后来也用于 Apple 的平板电脑 iPad 上。（后来 Apple 将 iPad 上的操作系统与手机端区分开，改叫 iPadOS。）一年后，基于经过修改的 Linux 内核，Google 引入了具有自己的图形用户界面的 Android。
 　　截止本文完稿，iOS 已更新至 iOS 14.3；Android 已更新至 Android 11（Beta
-3）。读者可以分别点击<a target="_blank" rel="noopener" href="https://www.apple.com.cn/ios/">这里</a>和<a target="_blank" rel="noopener" href="https://android.com/">这里</a>查看关于这两个操作系统的更多官方信息。
+3）。读者可以分别点击<a href="https://www.apple.com.cn/ios/">这里</a>和<a href="https://android.com/">这里</a>查看关于这两个操作系统的更多官方信息。
 　　除了这些，移动领域还竞争着各种各样的其他移动操作系统。不过如今移动端主流的操作系统只有 iOS 和 Android 系统及基于 Android 内核修改的其他 “换壳” 安卓系统。</p>
 <center>
 <strong>表 1 全球 / 中国移动操作系统市场份额占比（%）</strong>
@@ -502,14 +418,14 @@ X）是 Apple 公司推出的专为 Mac 系列电脑开发的基于图形用户�
 Pro，macOS 的用户体验非常舒适，特别是当 macOS 与 iOS、iPadOS 等系统同时交互时，接力、随航、隔空投送及 iCloud 同步等苹果生态带来的流畅感和便捷性是 Windows 无法替代的。同时，macOS 的自动保存技术也一次次拯救了笔者多次崩溃的 Adobe
 Photoshop 和 Adobe
 Illustrator，设计师的心再也不会像在 Windows 平台那样因为一个崩溃提示而化为齑粉。
-　　 读者可以前往 <a target="_blank" rel="noopener" href="https://www.apple.com.cn/macos/">Apple 官网</a>进一步了解 macOS。由于非 Mac 机器很难装载 macOS 系统，有条件的读者可以前往 Apple
+　　 读者可以前往 <a href="https://www.apple.com.cn/macos/">Apple 官网</a>进一步了解 macOS。由于非 Mac 机器很难装载 macOS 系统，有条件的读者可以前往 Apple
 Store 体验或购买一台 Mac。</p>
 <h2 id="结语">结语</h2>
 <p>　　
 综上所述，计算机操作系统一步一步走到今天，已经和人们的生活紧密相连。计算机是一个高速发展的行业，它无时不刻不在更新着，而正是因为系统功能的不断进步，我们的生活也越来越方便快捷。“Windows”“iOS”“安卓” 已经是妇孺皆知的概念，我们无法想象失去了操作系统的生活。感谢那么多科学家、工程师、开发者为我们带来了那么多优秀美丽的操作系统，也相信在未来的发展下，计算机系统也会在不断优化完善的路上越走越远。</p>
 <p><strong>参考文献:</strong></p>
 <p>［1］
-维基百科编者。操作系统 [G/OL]. 维基百科，2020 (2020-11-24) 1 [2021-01-09] <a target="_blank" rel="noopener" href="https://zh.wikipedia.org/w/index.php?title=操作系统&amp;oldid=62920825">https://zh.wikipedia.org/w/index.php?title = 操作系统 &amp; oldid=62920825</a>.<br>
+维基百科编者。操作系统 [G/OL]. 维基百科，2020 (2020-11-24) 1 [2021-01-09] <a href="https://zh.wikipedia.org/w/index.php?title=操作系统&amp;oldid=62920825">https://zh.wikipedia.org/w/index.php?title = 操作系统 &amp; oldid=62920825</a>.<br>
 ［2］ 计算机操作系统及发展探讨。田舜文 [J]. 数码设计
 （下）2020,9 (6):3.<br>
 ［3］ 计算机操作系统功能与其相关分类。宋辰辉 [J]. 电脑迷，2018 (7):15.<br>
@@ -541,105 +457,16 @@ https://gs.statcounter.com/os-market-share/desktop/china/<br>
 2021 (2021-01-02)[2021-01-10].
 https://zh.wikipedia.org/w/index.php?title=Microsoft_Windows&amp;oldid=63546256.<br>
 ［14］ 韩兵，李海坤。浅谈 Windows 操作系统 [J]. 数码世界，2017 (06):66-67.</p>
-
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E4%B8%BB%E9%A2%98/" rel="tag"># 主题</a>
-          </div>
-
-        
-
-          <div class="post-nav">
-            <div class="post-nav-item">
-                <a href="/2024/05/08/sample-chinese/" rel="prev" title="乱数假文">
-                  <i class="fa fa-angle-left"></i> 乱数假文
-                </a>
-            </div>
-            <div class="post-nav-item">
-                <a href="/2024/05/12/hello-world/" rel="next" title="Hello World">
-                  Hello World <i class="fa fa-angle-right"></i>
-                </a>
-            </div>
-          </div>
-    </footer>
-  </article>
+]]></content>
+      <tags>
+        <tag>主题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next 主题说明</title>
+    <url>/2024/05/14/next/</url>
+    <content><![CDATA[<div class="note default"><p>Content (md partial supported)</p>
 </div>
-
-
-
-
-
-
-</div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-
-  <div class="copyright">
-    &copy; 1984 – 
-    <span itemprop="copyrightYear">2024</span>
-    <span class="with-love">
-      <i class="fa-solid fa-star"></i>
-    </span>
-    <span class="author" itemprop="copyrightHolder">LaoK</span>
-  </div>
-
-    </div>
-  </footer>
-
-  
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-  </div>
-  <div class="sidebar-dimmer"></div>
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up fa-lg"></i>
-    <span>0%</span>
-  </div>
-  <div class="reading-progress-bar"></div>
-
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
-
-
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
-<script src="/js/third-party/search/local-search.js"></script>
-
-
-  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js","integrity":"sha256-stuqcu2FrjYCXDOytWFA5SoUE/r3nkp6gTglzNSlavU="}}</script>
-  <script src="/js/third-party/tags/mermaid.js"></script>
-
-
-
-
-
-  
-
-
-
-
-  
-
-  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
-<script src="/js/third-party/math/mathjax.js"></script>
-
-
-
-</body>
-</html>
+]]></content>
+  </entry>
+</search>
