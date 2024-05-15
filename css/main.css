@@ -1264,7 +1264,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #fbcbb4;
+  background: #b02fab;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -1339,9 +1339,6 @@ pre code {
 }
 .links-of-author a {
   font-size: 0.8125em;
-}
-.links-of-author i[class^='fa'] {
-  margin-right: 2px;
 }
 .sidebar .sidebar-button:not(:first-child) {
   margin-top: 15px;
@@ -1659,6 +1656,12 @@ pre code {
   color: #000;
   display: inline-block;
   margin: 0 5px;
+}
+.busuanzi-count #busuanzi_container_site_uv {
+  display: none;
+}
+.busuanzi-count #busuanzi_container_site_pv {
+  display: none;
 }
 @keyframes icon-animate {
   0%, 100% {
@@ -2083,6 +2086,9 @@ pre code {
 .post-meta-item-icon {
   margin-right: 3px;
 }
+.post-meta-item-text {
+  display: none;
+}
 @media (max-width: 991px) {
   .post-meta-item-text {
     display: none;
@@ -2091,6 +2097,9 @@ pre code {
 .post-meta-break {
   flex-basis: 100%;
   height: 0;
+}
+#busuanzi_container_page_pv {
+  display: none;
 }
 .post-nav {
   border-top: 1px solid #eee;
@@ -2726,8 +2735,8 @@ header.header {
 }
 @media (max-width: 767px) {
   .main-inner {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .post-block:first-of-type {
@@ -2768,7 +2777,7 @@ pre {
 .footer {
   background: #fff;
 }
-.menu-item .fa {
+.busuanzi-count {
   display: none;
 }
 .menu-item a,
