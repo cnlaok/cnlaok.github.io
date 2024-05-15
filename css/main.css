@@ -1264,7 +1264,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ad5970;
+  background: #fbcbb4;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2395,6 +2395,9 @@ ul.breadcrumb li:last-child {
   border-bottom-color: #111;
   color: #111;
 }
+.utterances {
+  max-width: unset;
+}
 .search-active {
   overflow: hidden;
 }
@@ -2874,4 +2877,8 @@ pre {
 .back-to-top {
   background: rgba(34,34,34,0);
   color: #222;
+}
+/* styles.css */
+.utterances {
+  font-family: inherit; /* 继承全局字体 */
 }
