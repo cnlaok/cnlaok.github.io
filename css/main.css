@@ -1264,7 +1264,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ffff74;
+  background: #ff8fa7;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2886,8 +2886,4 @@ pre {
 .back-to-top {
   background: rgba(34,34,34,0);
   color: #222;
-}
-/* styles.css */
-.utterances {
-  font-family: inherit; /* 继承全局字体 */
 }
